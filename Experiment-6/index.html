@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Drawing Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Drawing Tool</h1>
+  <canvas id="drawCanvas"></canvas>
+
+  <script>
+    const canvas = document.getElementById("drawCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Resize canvas to fit window
+    canvas.width = window.innerWidth - 40;
+    canvas.height = 500;
+
+    let drawing = false;
+
+    canvas.addEventListener("mousedown", () => drawing = true);
+    canvas.addEventListener("mouseup", () => drawing = false);
+    canvas.addEventListener("mousemove", draw);
+
+    function draw(event) {
+      if (!drawing) return;
+      ctx.fillStyle = "black";
+      ctx.beginPath();
+      ctx.arc(event.offsetX, event.offsetY, 5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  </script>
+</body>
+</html>
