@@ -1,0 +1,4 @@
+I created a student registration form using HTML that collects basic details like name, email, and age.
+ The form has input fields for each detail, along with a Register button to submit the information. 
+ I added HTML5 validation so that the user must enter a proper name, a valid email address, and a numeric age before the form can be submitted.
+  This ensures that the data collected is accurate and complete without needing extra scripts.
