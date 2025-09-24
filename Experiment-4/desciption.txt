@@ -1,2 +1,3 @@
-In this experiment We made a live page which count the alphabets in a string. Here we use HTML, Style.css, And Java script
-we also use text area in html that defines a multi-line text input control. It is commonly used within forms to allow users to enter larger blocks of text, such as comments, messages, reviews, or detailed descriptions
+I created a live character counter that updates automatically as the user types in a textbox. 
+The page contains a textarea where the user can enter any text, and just below it, a counter shows the number of characters typed. The layout is styled with a simple border and spacing to make it look neat. Using JavaScript, the counter listens for typing or deleting inside the textarea and instantly updates the number of characters shown. 
+This gives users real-time feedback about how much text they have entered.

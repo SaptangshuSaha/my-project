@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.people-container {
+  border: 1px solid #222;
+  padding: 20px;
+  max-width: 820px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  color: #222;
+}
+
+.intro {
+  margin: 6px 0 16px 0;
+  font-size: 0.95em;
+  color: #444;
+}
+
+.people-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.people-list li {
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s ease;
+}
+
+.people-list li:hover {
+  background: #f0f4ff;
+}
+
+.people-list button {
+  padding: 4px 10px;
+  font-size: 0.85em;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.people-list button:hover {
+  background: #0056b3;
+}
+
+.details-box {
+  border: 1px solid #e5e7eb;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 12px;
+  min-height: 60px;
+  white-space: pre-line;
+  font-weight: 500;
+}
+
+.details-wrapper h2,
+.people-list-wrapper h2 {
+  margin-bottom: 8px;
+}

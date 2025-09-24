@@ -1,0 +1,9 @@
+.col{
+  /* background-color: red; */
+  margin: 10px;
+
+}
+.main-container{
+  overflow: auto;
+  border: 5px solid black;
+}

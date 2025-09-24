@@ -1,0 +1,4 @@
+I created an admin dashboard webpage that is neatly divided into sections using a grid layout. 
+At the top, there is a header that shows the dashboard title and a switch to change between light mode and dark mode.
+ On the left side, there is a sidebar with navigation links such as Home, Users, and Settings. 
+ The middle area is the main content section where a welcome message is displayed, and this space can later be used for charts, tables, or reports. At the bottom, there is a footer that shows the copyright text. The layout is managed using CSS Grid, which organizes the page into rows and columns to keep everything in place. The theme switch makes the page look modern, as it allows the whole dashboard to change colors instantly without reloading the page
