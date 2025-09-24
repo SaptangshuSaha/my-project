@@ -36,7 +36,7 @@ DELETE /cards/1 → message: "Card with ID 1 removed" + removed object.
 - Run:
 
 ```bash
-cd Experiment-12
+cd Experiment-4.2
 npm i
 npm run dev
 ```
