@@ -1,0 +1,7 @@
+Problem Statement
+Design and implement a real-time analytics dashboard where a React client streams user interaction events to a Node.js backend, which computes rolling aggregates and broadcasts live updates over WebSocket to all connected dashboards. Persist raw events and computed metrics in MongoDB, and render live-updating charts (e.g., active users, events/sec, top routes, error rates) using Chart.js. The system must tolerate bursty traffic, recover from disconnects, and keep on-screen visuals consistent with stored data.
+
+Key Features
+Event Ingestion & Schema – Lightweight JSON event model (timestamp, userId/sessionId, route, action, metadata); validate inputs and reject malformed payloads.
+
+Transport Options – Primary WebSocket ingestion with REST fallback; backpressure and message size lim
