@@ -1,0 +1,5 @@
+I created an interactive drawing tool using SVG that allows users to draw freely with their mouse. 
+The page contains an SVG area that works like a canvas. When the user clicks and drags inside this area, lines are drawn following the mouse movement, and when the mouse is released, the drawing stops.
+ Each new click-and-drag creates a new path, so multiple shapes or strokes can be drawn. 
+ This was achieved using JavaScript by handling mouse events like mousedown, mousemove, and mouseup, and by dynamically creating and updating SVG path elements. 
+The result is a simple drawing tool where users can write or sketch directly on the web page.
